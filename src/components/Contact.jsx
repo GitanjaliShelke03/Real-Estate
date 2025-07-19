@@ -18,12 +18,13 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("");
+      toast.success("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
-      alert(data.message)
-      setResult(data.message);
+      toast.error(data.message)
+      setResult("");
     }
   };
     return (
