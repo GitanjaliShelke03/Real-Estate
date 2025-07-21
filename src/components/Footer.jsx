@@ -3,7 +3,9 @@ import assets from '../assets/assets'
 const Footer = () => {
     return (
         <div className='pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 text-gray-600 w-full overflow-hidden' id='Footer'>
-            <div className='container max-w-5xl mx-auto flex flex-col md:flex flow gap-4'>
+            <div className='container max-w-5xl mx-au
+            
+            flex flex-col md:flex flow gap-4'>
                 <div className='w-fullflex md:w-1/3 mb:-8 md:mb-0 gap-4'>
                     <img src={assets.logo_dark} alt="" />
                     
